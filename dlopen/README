@@ -1,0 +1,3 @@
+gcc -fPIC -o dynamic.so dynamic.c -shared
+
+gcc -o dlopenTest dlopenTest.c -ldl
